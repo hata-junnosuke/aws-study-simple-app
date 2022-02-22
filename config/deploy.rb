@@ -1,4 +1,4 @@
-lock "~> 3.14.0"
+lock "~> 3.16.0"
 
 set :application, "aws-study-simple-app"
 set :repo_url, "git@github.com:hata-junnosuke/aws-study-simple-app.git" # 自身のリモートリポジトリURL
