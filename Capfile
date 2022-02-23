@@ -11,7 +11,7 @@ require "capistrano/puma"
 require "capistrano/nginx"
 
 install_plugin Capistrano::SCM::Git
-install_plugin Capistrano::Puma
+# install_plugin Capistrano::Puma
 install_plugin Capistrano::Puma::Systemd #ここを追記
 install_plugin Capistrano::Puma::Nginx
 
